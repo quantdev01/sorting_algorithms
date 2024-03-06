@@ -48,6 +48,7 @@ int lomuto_partition(int *array, int low, int high)
 void quick_sort_helper(int array[], int low, int high)
 {
 	int size = high;
+
 	if (low < high)
 	{
 		int pi = lomuto_partition(array, low, high);
